@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+          <hibernate-mapping>
+          <class name="Pojo" table="order1">
+          <id name="Orderno" column="Orderno" type="string">
+          <generator class="assigned"></generator>
+          </id>
+          <property name="Name" column="Name" type="string"></property>
+          <property name="Bill" column="Bill" ></property>
+          <property name="Address" column="Address" type="string"></property>
+          <property name="Phone" column="Phone"></property>
+          
+          
+          </class>
+          </hibernate-mapping>
